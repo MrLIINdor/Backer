@@ -1,0 +1,197 @@
+
+
+.Hed{
+    padding: 0 calc((62vw - 1000px) / 2 );
+    margin: 0;
+    height: 62vh;
+    /* background: #79f279; */
+    background-image: url(../images/backgraund.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 1.04vh 1.55vh 0px hsla(206, 40%, 22%, 0.2);
+}
+
+.BtnCatalog{
+    padding: 1.2vh 8.4vh;
+    color: #fff;
+    background-color: #F2BC79;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+    border-radius: 0.375em;
+    border: 0.2vh solid #F2BC79;
+    font-size: 1.8vh;
+    margin-top: 0.5vh;
+    margin-left: 1.8vh;
+    font-weight: 500;
+}
+
+.BtnCatalog:hover{
+    color: #F2BC79;
+    background-color: #fff;
+    border: 0.2vh solid #F2BC79;
+}
+
+.PagesTitle{
+    font-size: 6vh;
+    font-weight: 800;
+    padding-top: 17vh;
+    margin: 0 1.8vh;
+    color: #fff;
+}
+
+.PagesParag{
+    color: #fff;
+    font-size: 2.6vh;
+    margin-left: 1.8vh;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.Dignities{
+    /* background: #79f279; */
+    margin: 4vh 0;
+    /* height: 28vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* @media(max-width: 930px){
+    .Dignities{
+        height: 60vh;
+    }
+} */
+
+
+.ContenerDig{
+    width: 20vh;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background: #79b8f2; */
+    flex-direction: column;
+
+}
+
+.ContenerDig .D1{
+    width: 16vh;
+}
+
+.ContenerParag{
+    margin-bottom: 4.4vh;
+    text-align: center;
+    width: 20vh;
+    font-weight: 400;
+    font-size: 2.4vh;
+}
+
+.ImageDignities{
+    /* margin-bottom: 1vh; */
+    width: 10vh;
+    height: 9.5vh;
+
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+
+.Kurasans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #79f279; */
+    margin: 3vh 0;
+    height: 36vh;
+    background-image: url(../images/bg_kurasan.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.P1{
+    font-size: 5.2vh;
+    letter-spacing: 1vh;
+    font-weight: 700;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+.ContenerCatalog{
+    margin: 0;
+    padding: 0 20vh;
+    /* background: #79f279; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* height: 110vh; */
+    /* display: grid; 
+    grid-template-columns: repeat(3, 40vh); 
+    grid-template-rows: repeat(2, 30vh);
+    gap: 4em 2em;  
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    grid-auto-flow: row; */
+}
+
+.CardCatalog{
+    /* display: flex;
+    flex-direction: column; */
+    border-radius: 2vh;
+    height: 30vh;
+    margin: 3.5vh 1vh;
+    background: #272727;
+    color: #fff;
+    box-shadow: 0px 0.51vh 1.55vh 0.2vh #223c5033;
+    /* width: 40vh; */
+}
+
+.ImgCard{
+    height: 24vh;
+    width: 40vh;
+    border-radius: 2vh 2vh 0 0;
+}
+
+.PageImage{
+    cursor: pointer;
+    width: 40%;
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 2.6vh;
+    margin: auto;
+    margin-top: 0.5vh;
+    position: relative;
+    /* width: 40vh; */
+}
+
+.PageImage:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -0.3vh;
+    width: 0;
+    height: 0.2vh; /* Высота линии */
+    background-color: #fff; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+
+.PageImage:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -0.3vh;
+    height: 0.2vh; /* Высота линии */
+    background-color: #F2BC79; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
