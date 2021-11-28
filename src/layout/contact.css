@@ -1,0 +1,8 @@
+.ConteinerContact{
+    height: 90vh;
+    padding: 0 calc((72vw - 1000px) / 2 );
+}
+
+.MapConteiner{
+    display: flex;
+}

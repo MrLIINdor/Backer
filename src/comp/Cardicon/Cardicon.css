@@ -1,0 +1,30 @@
+.ContenerDig{
+    width: 20vh;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background: #79b8f2; */
+    flex-direction: column;
+
+}
+
+.ContenerDig .D1{
+    width: 16vh;
+}
+
+.ContenerParag{
+    margin-bottom: 4.4vh;
+    text-align: center;
+    width: 20vh;
+    font-weight: 400;
+    font-size: 2.4vh;
+}
+
+.ImageDignities{
+    /* margin-bottom: 1vh; */
+    width: 10vh;
+    height: 9.5vh;
+
+}
