@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Navbar from './comp/Navbar/Navbars'
+import Heder from './comp/Heder/Heders'
 import  Home  from './layout/home'
 import  About  from './layout/about'
 import  Contact  from './layout/contact'
@@ -10,7 +10,7 @@ import Futer from './comp/Futer/Futers'
 function App() {
     return (
         <BrowserRouter>
-            <Navbar/>
+            <Heder/>
             <Routes>
                 <Route path='/' element={<Home/>} />
                 <Route path='/about' element={<About/>} />
